@@ -22,7 +22,7 @@
   "author": "Aryaveer Chaudhary",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/aryaveer2411/jobber-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -44,7 +44,13 @@
     "@babel/preset-typescript": "^7.28.5",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
+    "cloudinary": "^2.9.0",
     "express": "^5.2.1",
-    "typescript": "^5.9.3"
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5",
+    "typescript": "^5.9.3",
+    "winston": "^3.19.0",
+    "winston-elasticsearch": "^0.19.0"
   }
 }
