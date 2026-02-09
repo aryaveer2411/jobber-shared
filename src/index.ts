@@ -84,10 +84,11 @@ export {
 } from './error-handler';
 export {  verifyGatewayRequest } from './gateway-middleware';
 export { winstonLogger } from './logger';
-// export {
-//   firstLetterUppercase,
-//   lowerCase,
-//   toUpperCase,
-//   isEmail,
-//   isDataURL,
-// } from './interfaces/helpers';
+export {
+  firstLetterUppercase,
+  lowerCase,
+  toUpperCase,
+  isEmail,
+  isDataURL,
+} from './helper';
+export { asyncHandler } from './async-handler';
